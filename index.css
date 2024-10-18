@@ -1,16 +1,113 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
+    
+}
+img{
+    max-width: 100%;
+}
+svg{
+    /* max-width: 100%; */
+    fill: white;
+    width: 12%;
+    margin: 15px;
+}
+a{
+    text-decoration: none;
 }
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333;
+    background-color: black;
 }
 header{
-    
+    margin-top: 1%;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 30px;
+}
+nav>div{
+    display: flex;
+
+}
+nav>div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+
+}
+nav label{
+    color: white;
+    font-size: 40px;
+    margin: 15px;
+}
+
+
+
+.boton{
+    border-radius: 30px;
+    border: 3px solid white;
+    color: white;
+    padding: 10px 50px;
+    font-weight: bolder;
+}
+.boton:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+.boton2{
+    border-radius: 30px;
+    border: 3px solid red;
+    color: white;
+    padding: 10px 30px;
+    margin: 0px 20px;
+    font-weight: bolder;
+    background-color: red;
+}
+.boton2:hover{
+    background-color: rgb(247, 172, 33);
+    border: 3px solid rgb(247, 172, 33);
+    color: black;
+    transition: 1s;
+}
+
+
+#s1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+video{
+    z-index: 2;
+    position: relative;
+}
+
+
+@keyframes mover-lado {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+.animacion{
+    
+    background-color: red;
+    animation-name: mover-lado; 
+    position: absolute;
+    animation-duration: 3s; 
+    animation-timing-function: ease-out; 
+    animation-iteration-count: infinite;
+    z-index: 1;
+  }
+
 
 footer{
 
