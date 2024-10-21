@@ -75,7 +75,10 @@ nav label{
     color: black;
     transition: 1s;
 }
-
+video{
+    z-index: 2;
+    position: relative;
+}
 
 #s1{
     display: flex;
@@ -83,31 +86,12 @@ nav label{
     align-items: center;
 
 }
-video{
-    z-index: 2;
-    position: relative;
+
+#s1>div>p{
+    font-size: xx-large;
+    color: white;
+    font-weight: bolder;
 }
-
-
-@keyframes mover-lado {
-    from{
-        transform: translateX(0%);
-    }
-    to{
-        transform: translateX(100%);
-    }
-}
-.animacion{
-    
-    background-color: red;
-    animation-name: mover-lado; 
-    position: absolute;
-    animation-duration: 3s; 
-    animation-timing-function: ease-out; 
-    animation-iteration-count: infinite;
-    z-index: 1;
-  }
-
 
 footer{
 
