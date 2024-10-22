@@ -8,10 +8,8 @@ img{
     max-width: 100%;
 }
 svg{
-    /* max-width: 100%; */
     fill: white;
-    width: 12%;
-    margin: 15px;
+    width: 20%;
 }
 a{
     text-decoration: none;
@@ -33,6 +31,8 @@ nav{
 }
 nav>div{
     display: flex;
+    text-align: center;
+    align-items: center;
 
 }
 nav>div:nth-child(2){
@@ -75,22 +75,75 @@ nav label{
     color: black;
     transition: 1s;
 }
-video{
-    z-index: 2;
-    position: relative;
-}
+
 
 #s1{
-    display: flex;
-    justify-content: center;
+   
     align-items: center;
-    background-image: url(./img/fondoL.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-bottom: 5px solid white;
+    height: 90vh;
+    width: 100%;
 
 }
+.container{
+    
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+.ani{
+    height: 13vh;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.fila {
+    display: flex;
+    width: 100%;
+    
+}
+.filaI{
+    display: flex;
+    width: 100%;
+    
+}
+.direccion{
+    display: flex;
+}
+.palabra{
+    color: white;
+}
+.palabra2{
+    fill: white;
+}
+@keyframes mover-lado {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(100%);
+    }
+}
+.animacion{
+    animation-name: mover-lado; 
+    position: relative;
+    animation-duration: 3s; 
+    animation-timing-function: ease-out; 
+    animation-iteration-count: infinite;
+    z-index: 1;
+
+}
+.vid{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
 
 #s2{
     background-image: url(./img/imagenes/Carrusel_2x1.jpg);
