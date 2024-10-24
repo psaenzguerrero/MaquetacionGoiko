@@ -75,13 +75,71 @@ nav label{
     transition: 1s;
 }
 #s1{
+    height: 100vh;
+}
+
+.vid{
     background-image: url(./img/fondoL.png);
     background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#s2{
+    background-image: url(./img/imagenes/Carrusel_2x1.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 80vh;
+    width: 100%;
+    padding:100px;
 }
-.video{
-    z-index: 2;
-    position: relative;
+#s2>div:nth-child(1){
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    height: 60vh;
+    justify-content: space-between;
+    
+}
+.derec{
+    display: flex;
+    justify-content: end;
+}
+.derec a{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+}
+.abajo{
+    display: flex;
+    flex-flow: column;
+    justify-content: end;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.abajo a {
+    text-decoration: none;
+    color: white;
+}
+
+.carta{
+    background-image: url(./img/fondoC.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20vh;
+}
+
+#s4{
+    height: 50vh;
+}
+#s4>div{
+    height: 50%;
+    width: 50%;
 }
