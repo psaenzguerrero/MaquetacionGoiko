@@ -19,7 +19,6 @@ svg{
 a{
     text-decoration: none;
     color: white;
-    font-size: 1rem;
     font-weight: bolder;
 }
 body {
@@ -147,12 +146,14 @@ nav label{
 }
 .gris{
     color: lightslategray;
+    font-size: 20px;
 }
 #s3{
     margin-bottom: 5%;
 }
 #s3>div:nth-child(2){
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 1%;
 }
@@ -160,6 +161,10 @@ nav label{
     width: 29%;
     margin: 1%;   
     text-align: justify;
+}
+#s3 a{
+    font-size: 30px;
+
 }
 .borde{
     border: 3px solid white;
@@ -172,6 +177,7 @@ nav label{
 }
 .moneda{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 5%;
     padding-bottom: 6%;
     justify-content: center;
@@ -220,13 +226,18 @@ nav label{
     
 }
 #s5{
-    background-color: white;
+    /* background-color: white; */
+    padding-bottom: 3%;
 }
 #s5 >div{
     background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 #s5>div:nth-child(1){
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -258,12 +269,74 @@ nav label{
 }
 #s5>div:nth-child(3){
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 3%;
+    padding-bottom: 3%;
+
 }
 #s5>div:nth-child(3)>div{
     width: 29%;
     margin: 1%;   
     text-align: justify;  
+}
+#s5>div:nth-child(3)>div>p{
+    font-size: smaller;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#s5>div:nth-child(3)>div>a{
+    font-size: x-large;
+}
+#s5>div:nth-child(3)>div:hover>a{
+    text-decoration: underline;
+}
+footer{
+    background-color: white;
+    padding-top: 4%;
+    padding-left: 4%;
+    display: flex;
+}
+footer svg{
+    fill: black;
+    width: 35%;
+}
+footer > div:nth-child(2){
+    width: 70%;
+}
+footer p{
+    color: black;
+}
+
+@media (max-width: 1080px) {
+    header .boton:nth-child(1){
+        padding: 0px 0px;
+    }
+    header .boton:nth-child(3){
+        padding: 5px 10px;
+    }
+    #s1 video{
+        width: 100%;
+    }
+    #s3>div>div{
+        width: 80%; 
+    }
+    .moneda>div:nth-child(1){
+        width: 100%;
+        text-align: center;
+    }
+    .moneda>div:nth-child(2){
+        width: 86%;
+    }
+    #s5>div:nth-child(1)>div:nth-child(1){
+        width: 100%;
+    }
+    #s5>div:nth-child(1)>div:nth-child(2){
+        width: 100%;
+    }
+    #s5>div:nth-child(3)>div{
+        width: 80%;
+    }
+
 }
