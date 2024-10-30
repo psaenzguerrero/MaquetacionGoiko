@@ -372,61 +372,63 @@ nav label{
 #s5>div:nth-child(3)>div:hover>a{
     text-decoration: underline;
 }
-footer{
+footer {
     background-color: white;
+}
+footer>div:nth-child(1) {
+    display: flex;
     padding-top: 4%;
     padding-left: 4%;
-    display: flex;
 }
-footer svg{
+footer>div:nth-child(1)>div:nth-child(1)>svg {
     fill: black;
-    width: 35%;
+    width: 50%;
 }
-footer > div:nth-child(2){
-    width: 100%;
+footer>div:nth-child(1)>div:nth-child(1)>div {
+    display: flex;
+    justify-content: space-evenly;
 }
-footer p{
-    color: black;
-}
-footer>div:nth-child(2){
+footer>div>div:nth-child(2) {
     display: flex;
     justify-content: end;
+    width: 100%;
 }
-footer>div:nth-child(2)>div:nth-child(1){
+footer>div>div:nth-child(2)>div:nth-child(1) {
     width: 35%;
     margin-right: 100px;
 }
-footer>div:nth-child(2)>div:nth-child(2){
+footer>div>div:nth-child(2)>div:nth-child(2) {
     width: 30%;
 }
-footer>div>div:nth-child(1)>p{
-    
+footer>div>div>div:nth-child(1)>p {
     font-size: 50px;
-    font-family: "letra2"; 
-    font-weight: bold; 
+    font-family: "letra2";
+    font-weight: bold;
     line-height: 1.2;
 }
-footer>div>div:nth-child(1)>p:hover{
+footer>div>div>div:nth-child(1)>p:hover {
     color: white;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     font-weight: bolder;
-    
 }
-footer>div>div:nth-child(2)>p{
-    
+footer>div>div>div:nth-child(2)>p {
     font-size: 30px;
-    font-family: "letra"; 
-    font-weight: bold; 
+    font-family: "letra";
+    font-weight: bold;
     line-height: 1.2;
 }
-footer>div>div:nth-child(2)>p:hover{
+footer>div>div>div:nth-child(2)>p:hover {
     text-decoration: underline;
+}
+
+.I1{
+    color: black;
 }
 .desplegable{
     height: 0;
     overflow: hidden;
-
+    display: flex;
 }
 .desplegable>div>div:nth-child(1)>svg{
     width: 100%;
@@ -452,6 +454,24 @@ footer>div>div:nth-child(2)>p:hover{
 }
 .lA>svg{
     width: 100%;
+}
+.letrasD{
+    padding-top: 20%;
+}
+.letrasD>p{
+    font-family: "letra2";
+    font-size: 100px;
+    font-weight: bolder;
+    color: white;
+}
+.socialMedia-menu{
+    display: flex;
+    width: 50%;
+    padding-top: 20px;
+}
+.socialMedia-menu a{
+    font-weight: normal;
+    font-size: 20px;
 }
 .rueda{
     

@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded",()=>{
         desp.style.transition="top 0.5s linear";
         desp.style.height="100vh";
         
-        desp.style.backgroundColor="red";
+        desp.style.backgroundColor="#ee2737";
         body.style.overflow="hidden";
     });
 
