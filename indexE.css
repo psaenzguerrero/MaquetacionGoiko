@@ -372,6 +372,8 @@ nav label{
 #s5>div:nth-child(3)>div:hover>a{
     text-decoration: underline;
 }
+
+
 footer {
     background-color: white;
 }
@@ -380,22 +382,28 @@ footer>div:nth-child(1) {
     padding-top: 4%;
     padding-left: 4%;
 }
+footer>div:nth-child(1)>div:nth-child(1){
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
 footer>div:nth-child(1)>div:nth-child(1)>svg {
     fill: black;
-    width: 50%;
+    width: 22%;
 }
 footer>div:nth-child(1)>div:nth-child(1)>div {
     display: flex;
-    justify-content: space-evenly;
 }
-footer>div>div:nth-child(2) {
+footer>div:nth-child(1)>div:nth-child(2) {
     display: flex;
-    justify-content: end;
+    justify-content: space-evenly;
     width: 100%;
 }
-footer>div>div:nth-child(2)>div:nth-child(1) {
+footer>div:nth-child(1)>div:nth-child(2)>div{
     width: 35%;
-    margin-right: 100px;
+    margin-bottom: 10%;
 }
 footer>div>div:nth-child(2)>div:nth-child(2) {
     width: 30%;
@@ -424,7 +432,37 @@ footer>div>div>div:nth-child(2)>p:hover {
 
 .I1{
     color: black;
+    text-align: center;
+    background-color: black;
+    border-radius: 50%;
+    height: 4vh;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
 }
+.I1>svg{
+    fill: white;
+    width: 30%;
+}
+.I1:hover{
+    color: black;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    height: 4vh;
+    width: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.I1:hover>svg{
+    fill: black;
+}
+
+
 .desplegable{
     height: 0;
     overflow: hidden;
@@ -472,6 +510,40 @@ footer>div>div>div:nth-child(2)>p:hover {
 .socialMedia-menu a{
     font-weight: normal;
     font-size: 20px;
+}
+.desplegable>div:nth-child(2)>div:nth-child(3){
+    display: flex;
+}
+.I2{
+    color: white;
+    text-align: center;
+    background-color:#ee2737;
+    border-radius: 50%;
+    height: 4vh;
+    width: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.I2>svg{
+    fill: white;
+    width: 30%;
+}
+.I2:hover{
+    color: #ee2737;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    height: 4vh;
+    width: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.I2:hover>svg{
+    fill: black;
 }
 .rueda{
     
