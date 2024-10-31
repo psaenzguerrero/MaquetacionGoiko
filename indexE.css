@@ -402,7 +402,7 @@ footer>div:nth-child(1)>div:nth-child(2) {
     width: 100%;
 }
 footer>div:nth-child(1)>div:nth-child(2)>div{
-    width: 35%;
+    width: 45%;
     margin-bottom: 10%;
 }
 footer>div>div:nth-child(2)>div:nth-child(2) {
@@ -421,9 +421,8 @@ footer>div>div>div:nth-child(1)>p:hover {
     font-weight: bolder;
 }
 footer>div>div>div:nth-child(2)>p {
-    font-size: 30px;
-    font-family: "letra";
-    font-weight: bold;
+    font-size: 25px;
+    font-family: "letra"; 
     line-height: 1.2;
 }
 footer>div>div>div:nth-child(2)>p:hover {
@@ -471,9 +470,8 @@ footer>div>div>div:nth-child(2)>p:hover {
 .desplegable>div>div:nth-child(1)>svg{
     width: 100%;
     margin: 20%;
-    
 }
-.desplegable path{
+.desplegable>div>div:nth-child(1)>svg>path{
     fill: white;
 }
 .cerrarMenu{
@@ -485,6 +483,7 @@ footer>div>div>div:nth-child(2)>p:hover {
     height: 14.62vh;
     background-color: black;
 }
+
 .lA{
     transform: rotate(-90deg);
     height: 25vh;
@@ -494,7 +493,7 @@ footer>div>div>div:nth-child(2)>p:hover {
     width: 100%;
 }
 .letrasD{
-    padding-top: 20%;
+    padding-top: 14%;
 }
 .letrasD>p{
     font-family: "letra2";
@@ -504,49 +503,75 @@ footer>div>div>div:nth-child(2)>p:hover {
 }
 .socialMedia-menu{
     display: flex;
-    width: 50%;
-    padding-top: 20px;
+    width: 39%;
+    margin-top: 1%;
 }
 .socialMedia-menu a{
     font-weight: normal;
-    font-size: 20px;
+    font-size: 22px;
+}
+.letrasD>p:hover {
+    color: #ee2737;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-weight: bolder;
+}
+.socialMedia-menu a:hover {
+    text-decoration: underline;
 }
 .desplegable>div:nth-child(2)>div:nth-child(3){
     display: flex;
 }
+.desplegable>div:nth-child(2)>div:nth-child(3){
+    margin-top: 5%;
+}
 .I2{
     color: white;
     text-align: center;
-    background-color:#ee2737;
+    background-color:white;
     border-radius: 50%;
-    height: 4vh;
-    width: 3%;
+    height: 5vh;
+    width: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1%;
 }
 .I2>svg{
-    fill: white;
+    fill: #ee2737;
     width: 30%;
 }
 .I2:hover{
     color: #ee2737;
     text-align: center;
-    background-color: white;
+    background-color: #ee2737;
     border-radius: 50%;
-    height: 4vh;
-    width: 3%;
+    height: 5vh;
+    width: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1%;
 }
 .I2:hover>svg{
-    fill: black;
+    fill: #ee2737;
 }
+
 .rueda{
-    
+    background-image: url(./img/rueda.png);
+    width: 21%;
+    height: 37vh;
+    background-repeat: no-repeat;
+    margin-top: 29%;
+    margin-left: 8%;    
+}
+.rueda:hover{
+    background-image: url(./img/ruedaH.png);
+    width: 21%;
+    height: 37vh;
+    background-repeat: no-repeat;
+    margin-top: 29%;
+    margin-left: 8%;    
 }
 
 @media (max-width: 1080px) {
