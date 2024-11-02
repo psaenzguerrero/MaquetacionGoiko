@@ -581,6 +581,9 @@ footer>div>div>div:nth-child(2)>p:hover {
     header .boton:nth-child(3){
         padding: 5px 10px;
     }
+    nav {
+        padding-left: 0%;
+    }
     #s1 video{
         width: 100%;
     }
@@ -613,7 +616,41 @@ footer>div>div>div:nth-child(2)>p:hover {
     .im1{
         width: 100%;
     }
-
+    .abajo h2{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .abajo2 h2 {
+        font-size: 40px;
+    }
+    .abajo2 p {
+        font-size: 8px;
+        font-family: "letra";
+        color: white;
+        width: 75%;
+    }
+    #s5>div:nth-child(1)>div:nth-child(1)>h2 {
+        font-size: 30px;
+    }
+    footer>div:nth-child(1)>div:nth-child(2)>div {
+        width: 45%;
+        margin-bottom: 10%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer>div>div>div:nth-child(1)>p {
+        font-size: 25px;
+    }
+    footer>div:nth-child(1)>div:nth-child(2) {
+        display: flow;
+        flex-wrap: wrap;
+    }
+    .I1{
+        width: 16%;
+    }
+    .I1:hover{
+        width: 16%;
+    }
 }
 @media (max-width: 1500px) {
     footer{
