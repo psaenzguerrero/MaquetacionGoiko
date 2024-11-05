@@ -190,6 +190,7 @@ nav label{
 #s3>div>div:hover>img{
     z-index: 1;
     position: relative;
+    width: 100%;
 }
 
 #s3 a{
@@ -553,7 +554,7 @@ footer>div>div>div:nth-child(2)>p:hover {
     align-items: center;
     margin: 1%;
 }
-.I2:hover>svg{
+.I2>svg:hover{
     fill: #ee2737;
 }
 
@@ -650,6 +651,24 @@ footer>div>div>div:nth-child(2)>p:hover {
     }
     .I1:hover{
         width: 16%;
+    }
+    .desplegable{
+        width: 100%;
+    }
+    .letrasD>p{
+        font-size: 70px;
+    }
+    .I2{
+        width: 7%;
+    }
+    .I2:hover{  
+        width: 7%;
+    }
+    .cerrarMenu{
+        width: 30%;
+    }
+    .letrasD{
+        padding-top: 25%;
     }
 }
 @media (max-width: 1500px) {
